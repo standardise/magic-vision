@@ -1,0 +1,23 @@
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+sqlalchemy>=2.0.25
+asyncpg>=0.29.0
+pgvector>=0.2.4
+minio>=7.2.3
+python-multipart>=0.0.6
+websockets>=12.0
+alembic>=1.13.0
+
+# ML Dependencies
+torch>=2.1.0
+torchvision>=0.16.0
+ultralytics>=8.1.0
+supervision>=0.18.0
+opencv-python>=4.9.0.80
+numpy>=1.26.0
+pillow>=10.2.0
+
+# Utilities
+python-dotenv>=1.0.0
