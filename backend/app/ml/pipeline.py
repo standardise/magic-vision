@@ -3,8 +3,6 @@ import numpy as np
 from typing import List, Dict, Tuple, Optional
 from numpy.linalg import norm
 
-# สมมติว่า ByteTrack ถูกนำมาเขียนไว้ใน module นี้นะครับ
-# (คุณสามารถใช้ library อย่าง 'yolox.tracker.byte_tracker' หรือตัวอื่นๆ ที่หาได้ใน Github)
 from app.ml.tracker import ByteTrack 
 
 class VisionCountingPipeline:
