@@ -20,6 +20,6 @@ class YOLOv8Agnostic:
             boxes_list.append([x1, y1, x2, y2, conf])
         
         if len(boxes_list) == 0:
-            return np.empty((0, 5))  # คืนค่า array ว่างถ้าไม่มีการตรวจจับ
+            return np.empty((0, 5))
         
         return np.array(boxes_list)
